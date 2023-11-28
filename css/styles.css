@@ -1,0 +1,24 @@
+li {
+  list-style-type: none;
+}
+
+.header {
+}
+.header__nav {
+}
+.header__list {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.header__item {
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+  color: #7d7d7d;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 99px;
+  margin-bottom: 92px;
+}
