@@ -22,3 +22,70 @@ li {
   margin-left: 99px;
   margin-bottom: 92px;
 }
+.main {
+}
+.everything {
+}
+.everything__list1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.everything__img {
+  width: 420px;
+  height: 280px;
+  flex-shrink: 0;
+  margin-right: 66px;
+}
+.everything__title {
+  color: #b4ad9e;
+  font-family: "Ubuntu";
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 1px;
+  justify-content: left;
+}
+.everything__subtitle {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.everything__text {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.everything__list2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.everything__list3 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.footer {
+}
+.footer__button {
+  width: 165px;
+  height: 60px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #626262;
+  border-top: 20px;
+  border-bottom: 21px;
+  border-left: 49px;
+  border-right: 48px;
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid black;
+}
