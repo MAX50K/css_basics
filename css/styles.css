@@ -1,5 +1,5 @@
 .container{
-  width: 906px;
+  width: 1100px;
   margin: 0 auto;
   padding: 0 15px;
   
@@ -11,11 +11,11 @@ li {
 
 a {
   color: currentColor;
-
+  text-decoration-line: none;
 }
 
-.header__link--hover:{
-  color: blue;
+.header__link:hover{
+  color: rgb(125, 125, 255);
 }
 
 .header {
@@ -24,7 +24,6 @@ a {
 }
 .header__list {
   display: flex;
-  justify-content: center;
   gap: 99px;
 }
 .header__link {
@@ -42,9 +41,8 @@ a {
 }
 .everything__list {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 65px;
+  gap: 130px 65px;
 }
 .everything__img {
   width: 420px;
@@ -52,19 +50,25 @@ a {
   flex-shrink: 0;
   margin-right: 66px;
 }
+
+.everything__item {
+  flex-basis: calc((100% - 65px) / 2);
+}
+
 .everything__title {
   color: #b4ad9e;
   font-family: "Ubuntu";
   font-size: 14px;
   font-weight: 300;
-  margin-left: 1px;
-  justify-content: left;
+  margin-bottom: 32px;
+  margin-top: 32px;
 }
 .everything__subtitle {
   color: #626262;
   font-family: "Playfair Display";
   font-size: 30px;
   font-weight: 400;
+  margin-bottom: 40px;
 }
 .everything__text {
   color: #626262;
@@ -77,18 +81,21 @@ a {
 .footer {
 }
 .footer__button {
+  display: flex;
+  margin: 0 auto;
+  background: #FFF;
   width: 165px;
   height: 60px;
   flex-shrink: 0;
   stroke-width: 1px;
   stroke: #626262;
-  border-top: 20px;
-  border-bottom: 21px;
-  border-left: 49px;
-  border-right: 48px;
   color: #626262;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   font-size: 14px;
   font-weight: 400;
   border: 1px solid black;
+  margin-bottom: 66px;
+  margin-top: 94px;
+  justify-content: center;
+  align-items: center;
 }
